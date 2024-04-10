@@ -1,0 +1,1 @@
+const loginForm=document.getElementById("loginForm");loginForm.addEventListener("submit",function(e){e.preventDefault();e=document.getElementById("password");"adminpassword"===e.value?window.location.href="admin.html":(alert("Hibás jelszó! Kérem próbálja újra."),e.value="")});
